@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+- Deprecated this standalone repository in favor of `github.com/hollis-labs/substrate/llm-core@v0.1.0`
+  ([migration guide](https://github.com/hollis-labs/substrate/blob/llm-core/v0.1.0/llm-core/llmtypes/MIGRATION.md)).
+- Preserved existing release tags and history. This documentation change does
+  not create a new standalone release or migrate applications.
+
 ## v0.5.1 — 2026-10-01
 
 - Value fix: `PhaseThinking` is now `"thought"`, was `"thinking"`. The wire
