@@ -1,5 +1,21 @@
 # go-llm-types
 
+## Moved to substrate
+
+This standalone repository is deprecated. New development lives in the
+[`github.com/hollis-labs/substrate/llm-core`](https://github.com/hollis-labs/substrate/tree/llm-core/v0.1.0/llm-core)
+module, released as **`llm-core/v0.1.0`**.
+
+```sh
+go get github.com/hollis-labs/substrate/llm-core@v0.1.0
+```
+
+Follow the [package and API migration guide](https://github.com/hollis-labs/substrate/blob/llm-core/v0.1.0/llm-core/llmtypes/MIGRATION.md) when updating imports;
+the consolidation can include API changes. Existing standalone tags and history
+are preserved. The documentation below describes the standalone releases and
+is retained for historical reference. Applications migrate separately; this
+redirect does not deploy or update any consumer.
+
 Transport-agnostic data structures for LLM chat/completion workflows. This
 module defines the shared request, response, tool, and stream-event types
 used across the Hollis Labs LLM toolchain. It deliberately holds **data
